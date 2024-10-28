@@ -1,11 +1,13 @@
 import "./App.css";
+import Navber from "./component/Navber/Navber";
+import LineChart from "./component/LineChart/LineChart";
 
 function App() {
   return (
     <>
-      <h1 className="flex justify-center items-center bg-red-100 p-6 text-3xl font-medium m-10">
-        Vite + React
-      </h1>
+      <Navber></Navber>
+
+      <LineChart></LineChart>
     </>
   );
 }
